@@ -21,19 +21,13 @@ namespace FactoryPattern
             Console.WriteLine();
 
             var house = new House();
-            house.Garage = true;
-            house.CityArea = "Los Feliz";
-            house.Stories = "Most homes are 2 stories!";
+          
             
             var condo = new Condo();
-            condo.Garage = true;
-            condo.CityArea = "Glendale";
-            condo.Stories = "All of our condos are 3 stories!";
+            
 
             var apartments = new ApartmentBuilding();
-            apartments.Garage = true;
-            apartments.CityArea = "Downtown";
-            apartments.Stories = "This apartment building will be 8 stories!";
+         
 
 
             var blueprints = new IEnumerable[] { $"{house}, {condo}, {apartments}" };

@@ -14,6 +14,7 @@ namespace FactoryPattern
 
         public void Build()
         {
+            ConsoleLogger.ConstructionInfo();
             Console.WriteLine("This is a great option! This 8 story building offer single level apartments with great views!");
         }
     }

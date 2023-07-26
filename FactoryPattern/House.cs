@@ -14,6 +14,8 @@ namespace FactoryPattern
 
         public void Build()
         {
+            ConsoleLogger.ConstructionInfo();
+
             Console.WriteLine("Perfect choice! You chose a home. Our homes our 2 levels with great sq footage!");
         }
     }

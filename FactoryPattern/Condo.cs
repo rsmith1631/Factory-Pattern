@@ -14,6 +14,8 @@ namespace FactoryPattern
 
         public void Build()
         {
+            ConsoleLogger.ConstructionInfo();
+
             Console.WriteLine("You chose the condo option! Our condos has amazing space with 3 levels. This is a great choice!");
         }
     }
