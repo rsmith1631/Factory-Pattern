@@ -14,7 +14,7 @@ namespace FactoryPattern
 
         public void Build()
         {
-            Console.WriteLine("Construction beginned May 2023. Estimated to open early 2025!");
+            Console.WriteLine("This is a great option! This 8 story building offer single level apartments with great views!");
         }
     }
 }

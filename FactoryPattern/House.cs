@@ -14,7 +14,7 @@ namespace FactoryPattern
 
         public void Build()
         {
-            Console.WriteLine("Opening soon! Middle of October in 2023.");
+            Console.WriteLine("Perfect choice! You chose a home. Our homes our 2 levels with great sq footage!");
         }
     }
 }

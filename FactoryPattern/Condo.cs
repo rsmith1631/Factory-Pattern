@@ -14,7 +14,7 @@ namespace FactoryPattern
 
         public void Build()
         {
-            Console.WriteLine("Construction to begin in 2024.");
+            Console.WriteLine("You chose the condo option! Our condos has amazing space with 3 levels. This is a great choice!");
         }
     }
 }
