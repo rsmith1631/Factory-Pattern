@@ -20,33 +20,6 @@ namespace FactoryPattern
             Console.WriteLine();
             Console.WriteLine();
 
-            var house = new House();
-          
-            
-            var condo = new Condo();
-            
-
-            var apartments = new ApartmentBuilding();
-         
-
-
-            var blueprints = new IEnumerable[] { $"{house}, {condo}, {apartments}" };
-
-
-            foreach ( var blueprint in blueprints )
-            {
-                Console.Write("Home community opening date: ");
-                Console.WriteLine("Our home community will open October 2023.");
-                Console.WriteLine("");
-                Console.Write("Condos opening date: ");
-                Console.WriteLine("Construction with this site beginned May 2023. Estimated available dates are for June 2024.");
-                Console.WriteLine("");
-                Console.Write("Apartment complex opening date: ");
-                Console.WriteLine("Our amazing apartment building will open early 2025.");
-                Console.WriteLine(""); 
-
-            
-            }
         }
     }
 }

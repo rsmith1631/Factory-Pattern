@@ -8,15 +8,15 @@ namespace FactoryPattern
 {
     public class House : IBluePrint
     {
-        public string Stories { get; set; }
-        public bool Garage { get; set; }
-        public string CityArea { get; set; }
+        public string Stories { get; set; } = "2";
+        public bool Garage { get; set; } = true;
+        public string CityArea { get; set; } = "Los Feliz";
 
         public void Build()
         {
             ConsoleLogger.ConstructionInfo();
 
-            Console.WriteLine("Perfect choice! You chose a home. Our homes our 2 levels with great sq footage!");
+            Console.WriteLine("Perfect choice! You chose a home. Our homes are 2 levels with great sq footage!");
         }
     }
 }

@@ -8,9 +8,9 @@ namespace FactoryPattern
 {
     public class Condo : IBluePrint
     {
-        public string Stories { get; set; }
-        public bool Garage { get; set; }
-        public string CityArea { get; set; }
+        public string Stories { get; set; } = "3";
+        public bool Garage { get; set; } = true;
+        public string CityArea { get; set; } = "Glendale";
 
         public void Build()
         {
